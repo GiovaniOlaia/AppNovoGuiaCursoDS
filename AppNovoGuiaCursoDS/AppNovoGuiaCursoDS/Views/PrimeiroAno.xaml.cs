@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using AppNovoGuiaCursoDS.Models;
+
 namespace AppNovoGuiaCursoDS.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]

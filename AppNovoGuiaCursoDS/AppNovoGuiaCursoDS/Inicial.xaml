@@ -22,13 +22,15 @@
                        FontSize="Medium"
                        Style="{ StaticResource textoCentralizado }" />
 
-                <Label Text="Em breve este App estará disponivel na Play Store para Download."
+                <Label Text="Em breve este App estará disponivel na Play Store e na App Store para download."
                        FontSize="#AB0209"
                        Style="{ StaticResource textoCentralizado }" />
 
+                <!-- <Image Source="" />-->
+
                 <Label Text="Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva (Tiagotas) e do Prof. Marcos Pagagnotti (Marcão)"
                        Style="{ StaticResource textoCentralizado }" />
-                
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

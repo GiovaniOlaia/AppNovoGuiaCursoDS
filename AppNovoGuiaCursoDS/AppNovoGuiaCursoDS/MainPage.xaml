@@ -10,7 +10,7 @@
         <ContentPage Title="Menu">
             <Grid BackgroundColor="#3E474C">
                 <Grid.RowDefinitions>
-                    <RowDefinitions Height="160" />
+                    <RowDefinition Height="160" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
@@ -20,15 +20,21 @@
                              Margin="10"
                              HorizontalOptions="FillAndExpand">
 
-                    <Image Source=" " Aspect="AspectFit" />
+                    <Image Source="etec_jau_logo.png" Aspect="AspectFit" />
                 </StackLayout>
 
                 <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
+                    
                     <Button Text="Initial" Clicked="Open_Inicial" Style="{ StaticResource botaoVermelho }" />
+                    
                     <Button Text="Primeiro Módulo" Clicked="Open_Primeiro" Style="{ StaticResource botaoCinza }" />
+                    
                     <Button Text="Segundo Módulo" Clicked="Open_Segundo" Style="{ StaticResource botaoCinza }" />
+                    
                     <Button Text="Terceiro Módulo" Clicked="Open_Terceiro" Style="{ StaticResource botaoCinza }" />
+                    
                     <Button Text="Vestibulinho" Clicked="Open_Vestibulinho" Style="{ StaticResource botaoVermelho }" />
+                    
                     <Button Text="Contato" Clicked="Open_Contato" Style="{ StaticResource botaoVermelho }" />
                 </StackLayout>
             </Grid>
@@ -39,4 +45,5 @@
         <NavigationPage>
         </NavigationPage>
     </MasterDetailPage.Detail>
+    
 </MasterDetailPage>

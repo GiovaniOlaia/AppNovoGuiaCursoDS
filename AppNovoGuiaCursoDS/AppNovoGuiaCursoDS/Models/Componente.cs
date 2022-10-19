@@ -14,7 +14,7 @@ namespace AppNovoGuiaCursoDS.Models
 
         public string ValoresAtitudes { get; set; }
 
-        public string competencias { get; set; }
+        public string Competencias { get; set; }
 
         public string Habilidades { get; set; }
 
